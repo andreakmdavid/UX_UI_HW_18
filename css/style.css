@@ -74,8 +74,10 @@
         background-color: #E4E6DF;
     
       }
-    
+    /* Navigation CSS */
+
     section {
+        display: flex
         text-align: center;
         color: black
         display: inline-block;
