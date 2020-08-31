@@ -1,0 +1,89 @@
+/* Navigation CSS */
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    background-color: #E4E6DF;  
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+    }
+  #navigation {
+      display: flex;
+      width: 50%;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    #navigation p {
+      cursor: crosshair;
+      text-decoration: none;
+      align-items: center;
+      justify-content: space-evenly;
+
+    .button-wrapper {
+        display: block;
+        text-align: center;
+      }
+
+    .button {
+        border: 2px;
+        border-radius: 3px;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+        display: inline-block;
+        font-size: 1em;
+        padding: 1em 2em;
+        width: auto;
+      }
+      .cta-button {
+        background-color: #000;
+        color: #fff !important;
+      }
+      
+      .cta-button:hover {
+        background-color: #777;
+      }
+    .icons {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      width: 25%;
+    }
+    .icons img {
+      margin: 15px;
+      cursor: crosshair;
+    }
+    .highlight {
+      color:  #ffdb58;
+      font-weight: 700;
+    }
+
+    
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #E4E6DF;
+      }
+      .inline-block {
+        padding: 15px;
+        display: inline-block;
+        background-color: #E4E6DF;
+    
+      }
+    
+    section {
+        text-align: center;
+        color: black
+        display: inline-block;
+        background-color: #E4E6DF;
+    
+        
+    }
+    footer {
+        
+    }
+}
